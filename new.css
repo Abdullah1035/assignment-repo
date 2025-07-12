@@ -49,13 +49,7 @@ nav h1{
     font-size: 30px;
 }
 .container button{
-    width: 132px;
-    height: 48px;
-    border-radius: 10px;
-    background-color: #4E47FF;
-    color: #FFFFFF;
-    font-weight: bolder;
-    display: block;
+   ;
     margin: 0 auto;
     
 
@@ -128,17 +122,21 @@ hero-area div button{
 .testimonial-section{
     text-align: center;
     padding: 60px,20px;
+    
 }
 .testimonial-section h2{
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 30px;
-}
+    margin-top: 30px;
+} 
+    
 .testimonial-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
+   text-align: center;
 }
 .testimonial-card{
     background-color: #FFFFFF;
@@ -148,7 +146,9 @@ hero-area div button{
     height: 150;
     border: 1px solid #F2EDED;
     border-radius: 15px;
+    
 }
+
 .reviewer{
     display: flex;
     align-items: center;
@@ -159,8 +159,28 @@ hero-area div button{
     text-align: center;
     padding: 15px;
     gap: 50px;
+    margin : 15px;
 }
-
+.stodio button{
+     width: 132px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: bolder;
+    margin-bottom: 20px ;
+    
+}
+.stodio image{
+    background-position: center;
+background-repeat: no-repeat; */
+align-self: center;
+height: 200px;
+width: 40%
+border-radious: 20px;
+padding: auto;
+margin: 0 auto;
+}
 .contact-section{
     display: flex;
     justify-content: space-between;
