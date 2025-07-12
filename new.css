@@ -3,9 +3,8 @@
     padding: 0;
 } 
 body{
-     border: 1px solid red;
+     border: 1px solid rgb(53, 110, 225);
     max-width: 1140px;
-    height: 90px;
     margin: 0 auto;
 }
 header{
@@ -71,13 +70,14 @@ hero-area{
     align-items: center;
 }
 hero-area img{
-/* background-size: cover;
 background-position: center;
 background-repeat: no-repeat; */
 align-self: center;
-height: 100px;
+height: 200px;
 width: 40%
 border-radious: 20px;
+padding: auto;
+margin: 0 auto;
 }
 hero-area div h2{
     font-size: 30px;
