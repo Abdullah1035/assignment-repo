@@ -19,7 +19,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     border: 1px solid red;
-    max-width: 1140px;
+    max-width: 900px;
     height: 90px;
     margin: 0 auto;
 }
@@ -40,62 +40,69 @@ nav h1{
     margin-top: 150px;
 }
 .container div{
-    
+   ;
     text-align: center;
     border: 1px solid red;
-    max-width: 950px;
+    max-width: 900px;
     margin: 0 auto;
     height: 150px;
     font-size: 30px;
 }
 .container button{
-   ;
-    margin: 0 auto;
-    
-
-}
-hero-area{
-     border: 1px solid red;
-    max-width: 1140px;
-    height: 300px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-hero-area img{
-background-position: center;
-background-repeat: no-repeat; */
-align-self: center;
-height: 200px;
-width: 40%
-border-radious: 20px;
-padding: auto;
-margin: 0 auto;
-}
-hero-area div h2{
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-hero-area div p{
-    font-size: 20px;
-    margin-bottom: 8px;
-    width: 48%;
-}
-hero-area div button{
     width: 132px;
     height: 48px;
     border-radius: 10px;
     background-color: #4E47FF;
     color: #FFFFFF;
     font-weight: bolder;
-    
+    margin-bottom: 20px ;
+    text-align: center;
+   display: block;
+   margin: 0 auto;
+}
+.hero-area{
+     border: 1px solid red;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 auto;
+   
+}
+.hro-area div img{
+background-image: url(./img/wc-mini.png);
+background-repeat: no-repeat;
+width: 48%;
+height: 50px;
+border-radius:10px;
+background-position: center;
+overflow: hidden;
+
+}
+.hero-area div h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    width: 48%;
+}
+.hero-area div p{
+    font-size: 20px;
+    margin-bottom: 8px;
+    width: 48%;
+}
+.hero-area div button{
+    width: 132px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: bolder;  
 }
 
 .User-Rate{
     background-color:#aaa8d8 ;
      border: 1px solid red;
-    max-width: 1140px;
+    max-width: 900px;
     height: 180px;
     margin: 0 auto;
     text-align: center;
@@ -122,7 +129,8 @@ hero-area div button{
 .testimonial-section{
     text-align: center;
     padding: 60px,20px;
-    
+    width: 900px;
+    margin: 0 auto;
 }
 .testimonial-section h2{
     font-size: 30px;
@@ -137,12 +145,13 @@ hero-area div button{
     gap: 20px;
     flex-wrap: wrap;
    text-align: center;
+
 }
 .testimonial-card{
     background-color: #FFFFFF;
     text-align: left;
     padding: 20px;
-    width: 300px;
+    width: 200px;
     height: 150;
     border: 1px solid #F2EDED;
     border-radius: 15px;
@@ -160,6 +169,10 @@ hero-area div button{
     padding: 15px;
     gap: 50px;
     margin : 15px;
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    overflow: hidden;
 }
 .stodio button{
      width: 132px;
@@ -171,42 +184,64 @@ hero-area div button{
     margin-bottom: 20px ;
     
 }
-.stodio image{
+.stodio div img{
     background-position: center;
 background-repeat: no-repeat; */
 align-self: center;
-height: 200px;
-width: 40%
-border-radious: 20px;
+height: 300px;
+width: 80%
+border-radius: 20px;
 padding: auto;
 margin: 0 auto;
 }
 .contact-section{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 900px;
-    height: 150px;
+    height: 250px;
     margin: 0 auto;
-    background-color: #e4e3eb;
+    background-color: #f7f7fa;
 }
 .contact-section h1{
     font-size: 50px;
     align-items: center;
-    width: 48%;
+    max-width: 48%;
     font-weight: bold;
-    line-height: 1.2;
+}
+.contact-from {
+    max-width: 48%;
+    font-size: 20px;
+}
+.contact-from button{
+     max-width: 132px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-weight: bolder;
+    margin-bottom: 20px ;
+    cursor: pointer;
+    transition: all 0.5s;
+    
+
 }
 .footer{
     background-color:#f6e3e3 ;
     text-align: center;
-    padding: 0px,100px;
-    height: 150px;
+    padding: 30px;
+    height: 100px;
     max-width: 900px;
     margin: 0 auto;
-
 }
-.nav{
+.footer-Nav{
     text-decoration: none;
     font-size:16px ;
     margin: 0 auto;
+}
+
+/* button hover */
+.my-button:hover{
+    background-color: #9290e4;
+    color: black;
 }
