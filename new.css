@@ -3,7 +3,6 @@
     padding: 0;
 } 
 body{
-     border: 1px solid rgb(53, 110, 225);
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -18,13 +17,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
     max-width: 900px;
     height: 90px;
     margin: 0 auto;
 }
 nav button{
-    width: 132px;
+    max-width: 132px;
     height: 48px;
     border-radius: 10px;
     background-color: #4E47FF;
@@ -42,14 +40,13 @@ nav h1{
 .container div{
    ;
     text-align: center;
-    border: 1px solid red;
     max-width: 900px;
     margin: 0 auto;
     height: 150px;
     font-size: 30px;
 }
 .container button{
-    width: 132px;
+    max-width: 132px;
     height: 48px;
     border-radius: 10px;
     background-color: #4E47FF;
@@ -61,7 +58,6 @@ nav h1{
    margin: 0 auto;
 }
 .hero-area{
-     border: 1px solid red;
     max-width: 900px;
     display: flex;
     justify-content: space-between;
@@ -70,11 +66,11 @@ nav h1{
     margin: 0 auto;
    
 }
-.hro-area div img{
+.hero-image{
 background-image: url(./img/wc-mini.png);
 background-repeat: no-repeat;
-width: 48%;
-height: 50px;
+max-width: 180px;
+height: 150px;
 border-radius:10px;
 background-position: center;
 overflow: hidden;
@@ -88,10 +84,10 @@ overflow: hidden;
 .hero-area div p{
     font-size: 20px;
     margin-bottom: 8px;
-    width: 48%;
+    max-width: 48%;
 }
 .hero-area div button{
-    width: 132px;
+    max-width: 132px;
     height: 48px;
     border-radius: 10px;
     background-color: #4E47FF;
@@ -101,14 +97,13 @@ overflow: hidden;
 
 .User-Rate{
     background-color:#aaa8d8 ;
-     border: 1px solid red;
     max-width: 900px;
     height: 180px;
     margin: 0 auto;
     text-align: center;
 }
 .User-Rate h4{
-    width: 800px;
+    max-width: 800px;
     height: 50px;
     margin: 0 auto;
     font-size: 30px;
@@ -118,7 +113,7 @@ overflow: hidden;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 800px;
+    max-width: 800px;
     height: 50px;
     margin: 0 auto;
 }
@@ -129,7 +124,7 @@ overflow: hidden;
 .testimonial-section{
     text-align: center;
     padding: 60px,20px;
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
 }
 .testimonial-section h2{
@@ -151,7 +146,7 @@ overflow: hidden;
     background-color: #FFFFFF;
     text-align: left;
     padding: 20px;
-    width: 200px;
+    max-width: 200px;
     height: 150;
     border: 1px solid #F2EDED;
     border-radius: 15px;
@@ -169,13 +164,13 @@ overflow: hidden;
     padding: 15px;
     gap: 50px;
     margin : 15px;
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
     background-color: white;
     overflow: hidden;
 }
 .stodio button{
-     width: 132px;
+     max-width: 132px;
     height: 48px;
     border-radius: 10px;
     background-color: #4E47FF;
@@ -184,21 +179,20 @@ overflow: hidden;
     margin-bottom: 20px ;
     
 }
-.stodio div img{
-    background-position: center;
-background-repeat: no-repeat; */
+.stodio-img{
+ background-position: center;
+background-repeat: no-repeat;
 align-self: center;
 height: 300px;
-width: 80%
-border-radius: 20px;
-padding: auto;
-margin: 0 auto;
+max-width: 800px;
+border-radius:20px;
+
 }
 .contact-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 900px;
+    max-width: 900px;
     height: 250px;
     margin: 0 auto;
     background-color: #f7f7fa;
